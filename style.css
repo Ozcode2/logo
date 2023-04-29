@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   margin: 0%;
+   background-color: black;
+   max-width: 100%;
+   height: 280vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+@media (max-width: 767px){
+.container {
+        margin: 0%;
+        background-color: black;
+        max-width: 100%;
+        height: 510vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+#title{
+    position: absolute;
+    color: #FAFAFF;
+    font-size: 44px;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.02px;
+    left: 35%;
+    top: 10vh;
+    text-indent: -80px;
+}
+@media (max-width: 767px){
+    #title {
+        position: absolute;
+        color: #FAFAFF;
+        font-size: 25px;
+        font-family: "DM Sans", Sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.02px;
+        left: 28%;
+        top: 20vh;
+        text-indent: -60px;
+    }
+}
+.wrap{
+    position: absolute;
+    background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+    width: 35%;
+    height: 110vh;
+    top: 45vh;
+    left: 14%;
+    border-radius: 3%;
+    background-color: transparent;
+    transition: transform 0.3s ease-out;
+    display: block;
+}
+@media (max-width: 767px){
+    .wrap {
+        position: absolute;
+        background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+        width: 93%;
+        height: 110vh;
+        top: 40vh;
+        left: 3%;
+        border-radius: 3%;
+        background-color: transparent;
+        transition: transform 0.3s ease-out;
+        display: block;
+    }
+}
+.wrap:hover {
+    transform: scale(1.01);
+}
+#tel{
+    transform: scale(0.32);
+    position: absolute;
+    top: -22vh;
+    left: -70%;
+}
+@media (max-width: 767px){
+    #tel{
+        transform: scale(0.32);
+        position: absolute;
+        top: 11vh;
+        left: -80%;
+    }
+}
+#text{
+    position: absolute;
+    top: 4vh;
+    left: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E8E7FF;
+    font-family: "DM sans", Sans-serif;
+    text-indent: -35px;
+}
+
+
+#letter{
+    position: absolute;
+    top: 18vh;
+    left: 17%;
+    font-size: 13px;
+    color: #B0B4C4;;
+    font-family: "DM sans", Sans-serif;
+    line-height: 26px;
+}
+
+.wrapper{
+    position: absolute;
+    background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+    width: 35%;
+    height: 110vh;
+    top: 45vh;
+    left: 52%;
+    border-radius: 3%;
+    background-color: transparent;
+    transition: transform 0.3s ease-out;
+    display: block;
+}
+@media (max-width: 767px){
+.wrapper {
+        position: absolute;
+        background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+        width: 93%;
+        height: 110vh;
+        top: 155vh;
+        left: 3%;
+        border-radius: 3%;
+        background-color: transparent;
+        transition: transform 0.3s ease-out;
+        display: block;
+    }
+}
+.wrapper:hover {
+    transform: scale(1.01);
+}
+
+#round{
+    transform: scale(0.37);
+    position: absolute;
+    top: 0vh;
+    left: -70%;
+}
+@media (max-width: 767px){
+#round {
+        transform: scale(0.37);
+        position: absolute;
+        top: 28vh;
+        left: -80%;
+    }
+}
+#write{
+    position: absolute;
+    top: 4vh;
+    left: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E8E7FF;
+    font-family: "DM sans", Sans-serif;
+    text-indent: -23px;
+}
+
+
+#tense{
+    position: absolute;
+    top: 18vh;
+    left: 28%;
+    font-size: 13px;
+    color: #B0B4C4;
+    font-family: "DM sans", Sans-serif;
+    text-indent: -55px;
+    line-height: 26px;
+}
+
+.gather{
+    position: absolute;
+    background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+    width: 35%;
+    height: 110vh;
+    top: 160vh;
+    left: 14%;
+    border-radius: 3%;
+    background-color: transparent;
+    transition: transform 0.3s ease-out;
+    display: block;
+}
+@media (max-width: 767px){
+.gather {
+        position: absolute;
+        background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+        width: 93%;
+        height: 110vh;
+        top: 270vh;
+        left: 3%;
+        border-radius: 3%;
+        background-color: transparent;
+        transition: transform 0.3s ease-out;
+        display: block;
+    }
+}
+.gather:hover {
+    transform: scale(1.01);
+}
+
+#exchange{
+    transform: scale(0.35);
+    position: absolute;
+    top: -15vh;
+    left: -55%;
+}
+@media (max-width: 767px){
+    #exchange {
+        transform: scale(0.35);
+        position: absolute;
+        top: 15vh;
+        left: -62%;
+    }
+}
+#story{
+    position: absolute;
+    top: 3vh;
+    left: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E8E7FF;
+    font-family: "DM sans", Sans-serif;
+    text-indent: 25px;
+}
+
+#send{
+    position: absolute;
+    top: 17vh;
+    left: 20%;
+    font-size: 13px;
+    color: #B0B4C4;
+    font-family: "DM sans", Sans-serif;
+    line-height: 26px;
+    text-indent: -20px;
+}
+
+.packer {
+    position: absolute;
+    background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+    width: 35%;
+    height: 110vh;
+    top: 160vh;
+    left: 52%;
+    border-radius: 3%;
+    background-color: transparent;
+    transition: transform 0.3s ease-out;
+    display: block;
+}
+@media (max-width: 767px){
+.packer {
+        position: absolute;
+        background-image: linear-gradient(170deg, rgb(6, 94, 227)0%, rgb(155, 81, 224) 50%);
+        width: 93%;
+        height: 110vh;
+        top: 385vh;
+        left: 3%;
+        border-radius: 3%;
+        background-color: transparent;
+        transition: transform 0.3s ease-out;
+        display: block;
+    }
+}
+.packer:hover {
+    transform: scale(1.01);
+}
+
+#goal{
+    transform: scale(0.35);
+    position: absolute;
+    top: -13.7vh;
+    left: -70%;
+}
+@media (max-width: 767px){
+    #goal {
+        transform: scale(0.35);
+        position: absolute;
+        top: 17.4vh;
+        left: -80%;
+    }
+}
+#sms{
+    position: absolute;
+    top: 3vh;
+    left: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E8E7FF;
+    font-family: "DM sans", Sans-serif;
+    text-indent: -30px;
+}
+
+#flow{
+    position: absolute;
+    top: 19vh;
+    left: 17%;
+    font-size: 13px;
+    color: #B0B4C4;
+    font-family: "DM sans", Sans-serif;
+    line-height: 26px;
+}
+
+#chat{
+    position: absolute;
+    top: 30vh;
+    left: 31%;
+    color: #B0B4C4;
+    font-family: "DM sans", Sans-serif;
+    font-size: 13px;
+}
+@media (max-width: 767px){
+#chat {
+        position: absolute;
+        top: 27vh;
+        left: 31%;
+        color: #B0B4C4;
+        font-family: "DM sans", Sans-serif;
+        font-size: 13px;
+    }
+}
